@@ -15,7 +15,7 @@ while copy:
     num2 = rand.randint(0,len(x))
     z = x[num2-1]
     y = rand.randint(1,3)
-    num = rand.randint(float(bigT),(float(bigT)+y)) #anti detection?
+    num = rand.randint(int(bigT),(int(bigT)+y)) #anti detection?
 
     auto.moveTo(z[0], z[1], duration=float(num))
     auto.click(x=None, y=None, clicks=1, interval=0, button='left')
