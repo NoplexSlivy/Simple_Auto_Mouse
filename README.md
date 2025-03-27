@@ -1,0 +1,1 @@
+This is a program that automatically moves your mouse and clicks on your screen at given intervals. There are programs withing this file taht I plan on implementing in larger projects: this is just a simple introduction to the world of automation.
